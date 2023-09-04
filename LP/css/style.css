@@ -1,0 +1,172 @@
+@media screen and(max-width 768px){
+	.hamburger{
+		display:block;
+		cursor: pointer;
+	}
+}
+*{
+	margin: 0;
+	padding: 0;
+	font-family:cursive;
+}
+
+header{
+
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.7)),url(poetry5.jpg);
+   background-size:cover;
+	background-position:center;
+	height: 100vh;
+}
+     
+ul{
+
+float: right;
+list-style-type: none;
+margin-top: 25px;          
+     
+}
+
+ul li{
+
+	display: inline-block;
+}
+ ul li a{
+
+ 	text-decoration: none;
+
+ 	color: whitesmoke;
+
+ 	padding:7px 20px;
+    
+    border:2px solid transparent;
+ transition: width 0.4s , height 4s;
+
+ }
+ul li a:hover
+{
+
+	background-color:whitesmoke;
+	color: #000;
+}
+ ul li:active a
+{
+	background-color:#fff;
+	color:black;
+}
+
+.main
+{
+	max-width:1200px;
+	margin:auto;
+}
+
+.button1
+{
+       
+       position : absolute;
+
+	top: 240%;
+	left:450%;
+	transform: translate(-20%,-20%);
+
+}
+
+.btn1
+{
+
+	border: 1px solid #fff;
+	padding:50px 20px;
+	color:#fff;
+	text-decoration:none;
+	transition: 0.6s ease;
+	border-radius: 70%;
+
+}
+.btn1:hover
+{
+	background-color:whitesmoke;
+	color: #000;
+}
+.button
+{
+       
+       position : absolute;
+
+	top: 70%;
+	left:50%;
+	transform: translate(-50%,-50%);
+
+}
+.btn
+{
+
+	border: 1px solid #fff;
+	padding:20px 50px;
+	color:#fff;
+	text-decoration:none;
+	transition: 0.6s ease;
+	border-radius: 20%;
+
+}
+.btn:hover
+{
+	background-color:whitesmoke;
+	color: #000;
+}
+.title{
+
+	position : absolute;
+
+	top: 50%;
+	left:50%;
+	transform: translate(-50%,-50%);
+}
+.title h1
+{
+
+	color:#fff;
+	font-size:45px;
+}
+.para{
+
+	position : absolute;
+
+	top: 30%;
+	right:70%;
+	transform: translate(-50%,-50%);
+}
+.para h2
+{
+
+	color:whitesmoke;
+	font-size:20px;
+}
+
+.para h3
+{
+   
+	color:whitesmoke;
+	font-size:20px;
+}
+.para h4
+{
+
+	color:whitesmoke;
+	font-size:20px;
+}
+.para h5
+{
+
+	color:whitesmoke;
+	font-size:20px;
+}
+.para h6
+{
+
+	color:whitesmoke;
+	font-size:20px;
+}
+
+
+
+
